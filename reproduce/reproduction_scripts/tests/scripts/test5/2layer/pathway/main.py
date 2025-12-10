@@ -49,7 +49,7 @@ cols_stand = ['2-hydroxyglutarate', '3-hydroxybutyrate', 'Acetate', \
               'Phosphocholine', 'Phosphocreatine', 'Proline', \
               'scyllo-Inositol', 'Serine', 'Taurine', 'Threonine', \
               'Valine']
-device = torch.device(f"cuda:1")
+device = torch.device(f"cuda:0")
 for SEED in SEEDS:
     kf = KFold(n_splits=5, shuffle=True, random_state=SEED)
     result = list(kf.split(grade))

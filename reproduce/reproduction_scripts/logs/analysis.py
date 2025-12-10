@@ -101,7 +101,8 @@ for task in tasks:
 concordance_ablation2 = {}
 for task in tasks:
     concordance_ablation2[task] = []
-    with open(ultimate_path+ f"/reproduce/reproduction_scripts/tests/logs/test2/{task}/c_indices.txt", "r") as f:
+
+    with open(ultimate_path + f"/reproduce/reproduction_scripts/tests/logs/test2/{task}/c_indices.txt", "r") as f:
         for lines in f:
             concordance_ablation2[task].append(float(lines.strip()))
 
