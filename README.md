@@ -23,6 +23,6 @@ The `system1` and `system2` branches contain the final state after a run on the 
 the data used to train the model (reproduce/data/), the PiDeeL results (reproduce/reproduction_scripts/ subfolders), as 
 well as the emission results (emissions/).
 
-Project results are summarized in a spreadsheet containing the 
-documentation of the results and figures ("codecarbon_results_evaluation.xlsx") can be 
-found on all branches. Furthermore, a scientific publication in preparation will be reporting on replication study insights.
+The project report "HCAI - ML Efficiency of Cancer Survival Prediction" and an Excel sheet containing the
+documentation of the results and figures ("codecarbon_results_evaluation.xlsx") can be
+found on all branches.

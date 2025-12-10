@@ -206,7 +206,7 @@ indices = np.argpartition(mean_shap, -20)[-20:]
 for i in indices:
     print(row_stand[i], mean_shap[i])
 
-shap.summary_plot(ba, df, feature_names=row_stand, max_display=10)
+shap.summary_plot(ba, df, feature_names=row_stand, max_display=10, show=False)
 _, h = plt.gcf().get_size_inches()
 plt.gcf().set_size_inches(h * 4, h)
 plt.tight_layout()
