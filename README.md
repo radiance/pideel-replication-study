@@ -2,14 +2,15 @@
 
 ## About The Project
 
-This project was completed as part of the HCAI SS2024 course at TU Graz, Austria. It includes a reproduction study of 
-[PiDeeL](https://github.com/ciceklab/PiDeeL), a pathway-informed deep learning model for survival analysis and 
-pathological classification of gliomas, and an analysis of the emissions caused by running this reproduction on two 
-different systems.
+This project was initially part of a HCAI SS2024 course at Graz Technical University, Austria, 
+and was later on prepared for publication in MDPI Applied Sciences and will be available 2026 under DOI [10.3390/app1010000](https://doi.org/10.3390/app1010000).
+The study was intended to reproduce a published model named [PiDeeL](https://github.com/ciceklab/PiDeeL), 
+a pathway-informed deep learning model for survival analysis and pathological classification of gliomas, 
+and an analysis of the emissions caused by running this reproduction on two different systems.
 
 ## About The Repository
  
-The `main` branch contains a direct copy of the original PiDeeL repository (last updated 2024-07-02). The only exception
+The `main` branch contains a copy of the original PiDeeL repository (last updated 2024-07-02). The only exception
 is the PiDeeL README file, which has been renamed to README_PiDeeL.md, and the PiDeeL license, which has been renamed to 
 LICENSE_PiDeeL.
 
